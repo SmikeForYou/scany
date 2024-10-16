@@ -8,17 +8,17 @@ Thank you for considering contributing to scany! This file contains contribution
 
 Before opening a new issue, please make sure that you have completed all the following steps:
 
-- Read the documentation for the `pgxscan` package (if you use scany with `pgx` library): https://pkg.go.dev/github.com/georgysavva/scany/v2/pgxscan
-- Read the documentation for the `sqlscan` package (if you use scany with `database/sql` library): https://pkg.go.dev/github.com/georgysavva/scany/v2/sqlscan
-- Read the documentation for the `dbscan` package: https://pkg.go.dev/github.com/georgysavva/scany/v2/dbscan
-- Search for already existing similar issues on GitHub: https://github.com/georgysavva/scany/issues
+- Read the documentation for the `pgxscan` package (if you use scany with `pgx` library): https://pkg.go.dev/github.com/SmikeForYou/scany/v2/pgxscan
+- Read the documentation for the `sqlscan` package (if you use scany with `database/sql` library): https://pkg.go.dev/github.com/SmikeForYou/scany/v2/sqlscan
+- Read the documentation for the `dbscan` package: https://pkg.go.dev/github.com/SmikeForYou/scany/v2/dbscan
+- Search for already existing similar issues on GitHub: https://github.com/SmikeForYou/scany/issues
 
 ## Pull requests
 
 ### Code correctness
 
-All code changes must be covered with tests. See https://github.com/georgysavva/scany/wiki/Tests for how to work with scany tests.
+All code changes must be covered with tests. See https://github.com/SmikeForYou/scany/wiki/Tests for how to work with scany tests.
 
 ### Code quality
 
-Make sure to follow Go best practices and stay consistent with the rest of the code. See https://github.com/georgysavva/scany/wiki/Code-quality for details.
+Make sure to follow Go best practices and stay consistent with the rest of the code. See https://github.com/SmikeForYou/scany/wiki/Code-quality for details.

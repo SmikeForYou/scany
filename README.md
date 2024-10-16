@@ -1,9 +1,9 @@
 # scany
 
-[![Tests Status](https://github.com/georgysavva/scany/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/georgysavva/scany/actions/workflows/test.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/georgysavva/scany)](https://goreportcard.com/report/github.com/georgysavva/scany)
+[![Tests Status](https://github.com/SmikeForYou/scany/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/SmikeForYou/scany/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/SmikeForYou/scany)](https://goreportcard.com/report/github.com/SmikeForYou/scany)
 [![codecov](https://codecov.io/gh/georgysavva/scany/branch/master/graph/badge.svg)](https://codecov.io/gh/georgysavva/scany)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/georgysavva/scany/v2)](https://pkg.go.dev/github.com/georgysavva/scany/v2)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/SmikeForYou/scany/v2)](https://pkg.go.dev/github.com/SmikeForYou/scany/v2)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 ## Overview
@@ -35,7 +35,7 @@ it doesn't know anything about relations between objects e.g: one to many, many 
 ## Install
 
 ```
-go get github.com/georgysavva/scany/v2
+go get github.com/SmikeForYou/scany/v2
 ```
 
 ## How to use with `database/sql`
@@ -47,7 +47,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/georgysavva/scany/v2/sqlscan"
+	"github.com/SmikeForYou/scany/v2/sqlscan"
 )
 
 type User struct {
@@ -67,7 +67,7 @@ func main() {
 }
 ```
 
-Use [`sqlscan`](https://pkg.go.dev/github.com/georgysavva/scany/v2/sqlscan)
+Use [`sqlscan`](https://pkg.go.dev/github.com/SmikeForYou/scany/v2/sqlscan)
 package to work with `database/sql` standard library.
 
 ## How to use with `pgx` native interface
@@ -80,7 +80,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/georgysavva/scany/v2/pgxscan"
+	"github.com/SmikeForYou/scany/v2/pgxscan"
 )
 
 type User struct {
@@ -100,12 +100,12 @@ func main() {
 }
 ```
 
-Use [`pgxscan`](https://pkg.go.dev/github.com/georgysavva/scany/v2/pgxscan)
+Use [`pgxscan`](https://pkg.go.dev/github.com/SmikeForYou/scany/v2/pgxscan)
 package to work with `pgx` library native interface.
 
 ## How to use with other database libraries
 
-Use [`dbscan`](https://pkg.go.dev/github.com/georgysavva/scany/v2/dbscan) package that works with an abstract database,
+Use [`dbscan`](https://pkg.go.dev/github.com/SmikeForYou/scany/v2/dbscan) package that works with an abstract database,
 and can be integrated with any library that has a concept of rows. This particular package implements core scany
 features and contains all the logic. Both `sqlscan` and `pgxscan` use `dbscan` internally.
 
@@ -115,17 +115,17 @@ features and contains all the logic. Both `sqlscan` and `pgxscan` use `dbscan` i
   supports [`pgx`](https://github.com/jackc/pgx) native interface and can be extended to work with any database library
   independent of `database/sql`
 - In terms of scanning and mapping abilities, scany provides
-  all [features](https://github.com/georgysavva/scany#features) of sqlx
+  all [features](https://github.com/SmikeForYou/scany#features) of sqlx
 - scany has a simpler API and much fewer concepts, so it's easier to start working with
 
 ## Project documentation
 
-For detailed project documentation see GitHub [Wiki](https://github.com/georgysavva/scany/wiki).
+For detailed project documentation see GitHub [Wiki](https://github.com/SmikeForYou/scany/wiki).
 
 ## How to contribute
 
 - If you have an idea or a question, just post a pull request or an issue. Every feedback is appreciated.
-- If you want to help but don't know-how. All issues that you can work on are marked as `"help wanted"`. Discover all `"help wanted"` issues [here](https://github.com/georgysavva/scany/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+- If you want to help but don't know-how. All issues that you can work on are marked as `"help wanted"`. Discover all `"help wanted"` issues [here](https://github.com/SmikeForYou/scany/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
 ## License
 

@@ -3,7 +3,7 @@ package dbscan_test
 import (
 	"strings"
 
-	"github.com/georgysavva/scany/v2/dbscan"
+	"github.com/SmikeForYou/scany/v2/dbscan"
 )
 
 func ExampleScanAll() {
