@@ -1,4 +1,4 @@
-module github.com/georgysavva/scany/v2
+module github.com/SmikeForYou/scany
 
 go 1.18
 
